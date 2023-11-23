@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Trakinas Soda - O Refresco Ideal</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #33ccff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    nav {
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #33ccff;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+    nav ul li a:hover {
+      color: #ff6600;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    article {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px #ccc;
+      margin: 10px;
+      padding: 20px;
+      width: 30%;
+    }
+    article h2 {
+      font-size: 24px;
+      margin: 0;
+    }
+    article p {
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+    article img {
+      border-radius: 5px;
+      max-width: 100%;
+    }
+    footer {
+      background-color: #33ccff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trakinas Soda - O Refresco Ideal</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Produtos</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Entrar</a></li>
+      <li><a href="#">Carrinho (0)</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <img src="traki.png" alt="Trakinas Soda">
+      <h2>Sobre a Trakinas Soda</h2>
+      <p>A Trakinas Soda é uma marca de refrigerantes premium que oferece um sabor refrescante que não pode ser batido. Feitos com ingredientes de alta qualidade, nossos refrigerantes vêm em uma variedade de sabores para agradar qualquer paladar. Se você está procurando algo doce, azedo ou frutado, nós temos o que você precisa.</p>
+    </article>
+    <article>
+      <img src="bottles.jpg" alt="Produtos Trakinas Soda">
+      <h2>Nossos Produtos</h2>
+      <p>Nós oferecemos uma grande variedade de refrigerantes, desde sabores clássicos até opções mais exóticas. Todos os nossos produtos são feitos com ingredientes de alta qualidade e sabores naturais, e estão disponíveis em garrafas de vidro ou latas. Experimente nossos sabores mais populares, como limão, laranja, uva e cola, ou experimente nossas opções mais exóticas, como frutas tropicais ou chá gelado.</p>
+    </article>
+    <article>
+      <img src="https://dummyimage.com/600x400/000/fff&text=Contato+Trakinas+Soda" alt="Contato Trakinas Soda">
+      <h2>Entre em Contato</h2>
+      <p>Se você tiver alguma dúvida ou quiser fazer um pedido, entre em contato conosco por telefone, e-mail ou pelo formulário de contato em nosso site. Nós faremos o possível para responder o mais breve possível. Obrigado por escolher a Trakinas Soda como sua marca de refrigerantes favorita.</p>
+    </article>
+  </main>
+  <footer>
+    <p>© 2023 Trakinas Soda. Todos os direitos reservados.</p>
+  </footer>
+  <img src="pica.jpg" alt="Produtos Trakinas Soda"><img src="pica.jpg" alt="Produtos Trakinas Soda"><img src="pica.jpg" alt="Produtos Trakinas Soda"><img src="pica.jpg" alt="Produtos Trakinas Soda" width=21%; height=500>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var form = document.getElementById('contactForm');
+
+      if (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          alert('Form submitted!');
+          // You can add your form handling logic here, such as sending data to a server
+        });
+      }
+    });
+  </script>
+</body>
+</html>
